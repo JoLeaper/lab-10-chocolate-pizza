@@ -1,15 +1,37 @@
 header {
 display: flex;
+/* border-style: dotted; */
+/* font-family: consolas;
+border-bottom: 4px dotted blue; */
+/* border: 20px solid pink;
+border-image-source: url("../lab-assets/hr-img.png");
+border-image-slice: 20 22;
+border-image-repeat: ; */
+
+/* border-image: url("../lab-assets/hr-img.png"); */
+    border-bottom: 10px solid transparent;
+    border-image-source: url("../lab-assets/hr-img.png");
+    border-image-repeat: repeat;
+    border-image-slice: 1;
 }
 
-header #site-name {
 
+.site-name {
+/* margin: 100px; */
+margin: 0;
+font-size: 20px;
+
+
+.site-tagline {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-header #social-media {
-    
+.social-media {
+    margin-right: 7px;
 }
 
-header #exporting-buttons {
-    
+.exporting-buttons {
+    /* margin: 100px; */
 }
