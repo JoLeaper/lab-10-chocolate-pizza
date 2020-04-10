@@ -1,18 +1,34 @@
-
-/* #small-fork {
-    margin: 100px auto;
-    max-width: 600px;
-    position: relative;
+.small-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#small-fork::after {
+.copyright {
+    color: #999999;
+    text-align: center;
+}
+
+
+/* .small-logo:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height:2px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+.small-logo:after {
     content: "";
     display: block;
     width: 120px;
     height: 2px;
     background: #000;
     position: absolute;
-    left: 0;
+    right: 0;
     top: 50%;
     z-index: -2;
 } */
