@@ -9,6 +9,26 @@
     text-align: center;
 }
 
+.author-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/*thanks to w3*/
+#share-button {
+    background-color: #BC7058;
+    border: none;
+    color: white;
+    font-family:'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+
+}
+
 
 /* .small-logo:before {
     content: "";
