@@ -44,16 +44,21 @@ ul {
 }
 
 
-/* .small-logo:before {
+.small-logo {
+    margin:
+}
+
+.smaller-logo:before {
     content: "";
     display: block;
     width: 120px;
-    height:2px;
+    height:52px;
     position: absolute;
     left: 0;
     top: 50%;
     z-index: -2;
 }
+
 
 .small-logo:after {
     content: "";
@@ -65,4 +70,4 @@ ul {
     right: 0;
     top: 50%;
     z-index: -2;
-} */
+}
