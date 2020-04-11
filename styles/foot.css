@@ -17,11 +17,6 @@
     justify-content: space-around;
 
 }
-
-ul {
-
-}
-
 /*thanks to w3*/
 #share-button {
     background-color: #BC7058;
@@ -44,21 +39,16 @@ ul {
 }
 
 
-.small-logo {
-    margin:
-}
-
-.smaller-logo:before {
+/* .small-logo:before {
     content: "";
     display: block;
     width: 120px;
-    height:52px;
+    height:2px;
     position: absolute;
     left: 0;
     top: 50%;
     z-index: -2;
 }
-
 
 .small-logo:after {
     content: "";
@@ -70,4 +60,4 @@ ul {
     right: 0;
     top: 50%;
     z-index: -2;
-}
+} */
